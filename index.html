@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbie Roxa | A história</title>
+  <meta name="description" content="A história da Barbie, de 1959 até hoje, contada em roxo.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kaushan+Script&family=Montserrat:wght@400;500;600&family=Syne:wght@700;800&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- faixa de aviso -->
+  <div class="topbar">
+    <p class="topbar__aviso"><span class="estrela-mini">✦</span> Desde 9 de março de 1959 <span class="estrela-mini">✦</span></p>
+  </div>
+
+  <!-- logo -->
+  <header class="marca">
+    <a href="#inicio" class="logo" aria-label="Barbie Roxa, início">
+      <svg class="logo__arco" viewBox="0 0 220 90" aria-hidden="true">
+        <path d="M10 88 A100 82 0 0 1 210 88" fill="none" stroke="#8A5BA8" stroke-width="13"/>
+        <path d="M32 88 A78 62 0 0 1 188 88" fill="none" stroke="#C566E6" stroke-width="12"/>
+        <path d="M52 88 A58 44 0 0 1 168 88" fill="none" stroke="#F0E1F5" stroke-width="9"/>
+      </svg>
+      <span class="logo__nome">Barbie Roxa</span>
+      <span class="logo__sub">a história</span>
+    </a>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Principal">
+    <button class="menu__botao" id="menuBotao" aria-expanded="false" aria-controls="menuLista">Menu</button>
+    <ul class="menu__lista" id="menuLista">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#bemvinda">Sobre</a></li>
+      <li><a href="#historia">História</a></li>
+      <li><a href="#colecoes">Coleções</a></li>
+      <li><a href="#musica">Música</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <span class="nuvem nuvem--a" aria-hidden="true"></span>
+      <span class="nuvem nuvem--b" aria-hidden="true"></span>
+      <span class="nuvem nuvem--c" aria-hidden="true"></span>
+      <span class="brilho" style="top:9%;left:11%" aria-hidden="true">✦</span>
+      <span class="brilho brilho--g" style="top:13%;left:56%" aria-hidden="true">✦</span>
+      <span class="brilho" style="top:52%;left:54%" aria-hidden="true">✦</span>
+      <span class="brilho" style="bottom:10%;left:62%" aria-hidden="true">✦</span>
+      <span class="brilho brilho--g" style="top:30%;right:6%" aria-hidden="true">✦</span>
+
+      <div class="hero__foto">
+        <div class="arco">
+          <div class="arco__janela">
+            <!-- coloque sua imagem em img/barbie-roxa.jpg -->
+            <img src="img/barbie-roxa.jpg" alt="Barbie em tons de roxo" onerror="this.remove()">
+            <span class="arco__vazio" aria-hidden="true">✦</span>
+          </div>
+        </div>
+        <span class="nuvem nuvem--d" aria-hidden="true"></span>
+        <div class="selo" aria-hidden="true"><span>Barbie<br>Roxa</span></div>
+      </div>
+
+      <div class="hero__texto">
+        <span class="balao" aria-hidden="true">
+          <svg viewBox="0 0 60 52"><path d="M8 6h44a6 6 0 0 1 6 6v22a6 6 0 0 1-6 6H30l-12 9v-9H8a6 6 0 0 1-6-6V12a6 6 0 0 1 6-6z" fill="none" stroke="#8A5BA8" stroke-width="3" stroke-linejoin="round"/><path d="M30 31c-8-5-9-10-5-12 2-1 4 0 5 2 1-2 3-3 5-2 4 2 3 7-5 12z" fill="#C566E6"/></svg>
+        </span>
+        <p class="script">Era uma vez</p>
+        <h1 class="hero__titulo">Uma boneca<span>que virou ícone</span></h1>
+        <a class="botao" href="#historia">Ver a história</a>
+      </div>
+    </section>
+
+    <!-- BEM-VINDA -->
+    <section class="bemvinda rasgo-cima" id="bemvinda">
+      <span class="nuvem nuvem--e" aria-hidden="true"></span>
+      <span class="nuvem nuvem--f" aria-hidden="true"></span>
+      <h2 class="titulo-grande"><span class="script script--sobre">oi,</span>Bem-vinda</h2>
+
+      <div class="caixa">
+        <span class="oi" aria-hidden="true">Oi!</span>
+        <p>Este cantinho conta a história da Barbie do jeito que ela merece: em roxo. Aqui o rosa dá lugar a uma cor de imaginação e de magia, mas a trajetória é a de verdade, de uma boneca de 1959 até as telas de cinema.</p>
+        <p>Role a página, passe pelos marcos de cada década e, no fim, aperte o play.</p>
+        <a class="botao botao--pequeno" href="#historia">Começar</a>
+      </div>
+    </section>
+
+    <!-- HISTÓRIA -->
+    <section class="historia" id="historia">
+      <h2 class="titulo-grande"><span class="script script--sobre">nossa</span>História</h2>
+
+      <ol class="linha">
+        <li>
+          <span class="ano">1959</span>
+          <div class="cartao">
+            <h3>A estreia em Nova York</h3>
+            <p>Em 9 de março, a Barbie é apresentada na Feira Americana de Brinquedos. Ruth Handler, cofundadora da Mattel, criou a boneca depois de notar que a filha, Barbara, brincava de dar vida adulta às suas bonecas de papel. O nome vem dela.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">1961</span>
+          <div class="cartao">
+            <h3>Ken entra em cena</h3>
+            <p>O Ken é lançado e ganha o nome do filho de Ruth, Kenneth.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">1962</span>
+          <div class="cartao">
+            <h3>Uma casa só dela</h3>
+            <p>Chega a primeira Casa dos Sonhos, e a Barbie passa a ter um endereço próprio.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">1965</span>
+          <div class="cartao">
+            <h3>Astronauta</h3>
+            <p>A Barbie vai ao espaço, quatro anos antes de o homem pisar na Lua.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">1973</span>
+          <div class="cartao">
+            <h3>Cirurgiã</h3>
+            <p>A coleção de carreiras cresce, e a boneca aparece de jaleco e estetoscópio.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">1992</span>
+          <div class="cartao">
+            <h3>Candidata à presidência</h3>
+            <p>Em ano de eleição americana, a Barbie lança sua campanha. Ela voltaria à disputa em outras eleições.</p>
+          </div>
+        </li>
+        <li>
+          <span class="ano">2023</span>
+          <div class="cartao">
+            <h3>O filme</h3>
+            <p>Greta Gerwig dirige o longa da Barbie, que levou milhões de pessoas aos cinemas e recolocou a boneca no centro da conversa.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- COLEÇÕES -->
+    <section class="colecoes rasgo-cima" id="colecoes">
+      <h2 class="titulo-grande"><span class="script script--sobre">nossas</span>Coleções</h2>
+
+      <div class="grade">
+        <a class="tile" href="#historia">
+          <span class="tile__estrela">✦</span>
+          <strong>Carreiras</strong>
+          <small>Astronauta, médica, candidata e mais de 200 profissões ao longo dos anos.</small>
+        </a>
+        <a class="tile" href="#historia">
+          <span class="tile__estrela">✦</span>
+          <strong>Casa dos Sonhos</strong>
+          <small>Do primeiro endereço, em 1962, às casas de vários andares.</small>
+        </a>
+        <a class="tile tile--coracao" href="#historia">
+          <span class="tile__estrela">✦</span>
+          <strong>Moda</strong>
+          <small>Do maiô listrado de 1959 aos looks que viram tendência.</small>
+        </a>
+        <a class="tile" href="#historia">
+          <span class="tile__estrela">✦</span>
+          <strong>Cinema</strong>
+          <small>Os filmes, as animações e o longa de 2023.</small>
+        </a>
+      </div>
+    </section>
+
+    <!-- MÚSICA -->
+    <section class="musica" id="musica">
+      <h2 class="titulo-grande"><span class="script script--sobre">toca aí</span>Música</h2>
+      <p class="musica__texto">A trilha deste site. Dê o play e continue explorando.</p>
+      <div class="player">
+        <iframe
+          title="Música no Spotify"
+          src="https://open.spotify.com/embed/track/021cZnXCtWR3BhAUxq3EpK?utm_source=generator&theme=0"
+          width="100%" height="152" frameborder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape rasgo-cima" id="contato">
+    <p class="logo__nome logo__nome--rodape">Barbie Roxa</p>
+    <p>Site de fã, feito com carinho. Barbie é marca registrada da Mattel, Inc.; este projeto não tem ligação oficial com a empresa.</p>
+    <p class="rodape__ano">© <span id="ano"></span> Barbie Roxa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
